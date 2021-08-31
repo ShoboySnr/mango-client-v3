@@ -21,7 +21,6 @@
     "launch-group": "ts-node test/initDevnetGroup.ts",
     "launch-realistic-group": "ts-node test/initRealisticDevnetGroup.ts",
     "clean": "rm -rf lib",
-    "prepare": "yarn clean && yarn build",
     "type-check": "tsc --pretty --noEmit",
     "format": "prettier --check .",
     "lint": "eslint . --ext ts --ext tsx --ext js --quiet",
